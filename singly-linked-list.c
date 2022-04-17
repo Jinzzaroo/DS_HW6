@@ -17,7 +17,7 @@ typedef struct Head
 } headNode;
 
 /* 함수 리스트 */
-headNode *initialize(headNode *h);  //헤드노드 메모리 할당
+headNode *initialize(headNode *h);  //리스트 
 int freeList(headNode *h);          //노드 메모리 반환
 
 int insertFirst(headNode *h, int key);
@@ -114,7 +114,7 @@ int main()
     return 1;
 }
 
-/* 헤드노드 메모리 할당 */
+/* 리스트 초기화 */
 headNode *initialize(headNode *h)
 {
 
